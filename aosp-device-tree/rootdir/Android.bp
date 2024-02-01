@@ -1,0 +1,65 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+// Init scripts
+sh_binary {
+    name: "init.insmod.sh",
+    src: "bin/init.insmod.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.power.sh",
+    src: "bin/init.power.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.devstart.sh",
+    src: "bin/init.qcom.devstart.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.qcom.ipastart.sh",
+    src: "bin/init.qcom.ipastart.sh",
+    vendor: true,
+}
+
+sh_binary {
+    name: "init.radio.sh",
+    src: "bin/init.radio.sh",
+    vendor: true,
+}
+
+// Init configuration files
+prebuilt_etc {
+    name: "init.wahoo.usb.rc",
+    src: "etc/init.wahoo.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.walleye.rc",
+    src: "etc/init.walleye.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+prebuilt_etc {
+    name: "init.walleye.usb.rc",
+    src: "etc/init.walleye.usb.rc",
+    sub_dir: "init/hw",
+    vendor: true,
+}
+
+// fstab
+prebuilt_etc {
+    name: "fstab.walleye",
+    src: "etc/fstab.walleye",
+    vendor: true,
+}

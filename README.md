@@ -1,0 +1,14 @@
+# walleye-user 8.0.0 OPD1.170816.025 4424668 release-keys
+- manufacturer: google
+- platform: msm8998
+- codename: walleye
+- flavor: walleye-user
+- release: 8.0.0
+- id: OPD1.170816.025
+- incremental: 4424668
+- tags: release-keys
+- fingerprint: google/walleye/walleye:8.0.0/OPD1.170816.025/4424668:user/release-keys
+- is_ab: true
+- brand: google
+- branch: walleye-user-8.0.0-OPD1.170816.025-4424668-release-keys
+- repo: google_walleye_dump
